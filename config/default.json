@@ -1,0 +1,4 @@
+{
+    "uri-connect":"mongodb://127.0.0.1:27017/item_mern",
+    "secret_key":"item_list"
+}

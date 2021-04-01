@@ -1,0 +1,38 @@
+{
+  "name": "item-mern",
+  "version": "1.0.0",
+  "description": "item mern pproject with authentication",
+  "main": "source/main.js",
+  "scripts": {
+    "start": "node source/main.js --exec babel-node -e js",
+    "server": "nodemon source/main.js --exec babel-node -e js"
+  },
+  "keywords": [
+    "es6",
+    "babel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graceDev1/item-mern.git"
+  },
+  "author": "Grace Birindwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graceDev1/item-mern/issues"
+  },
+  "homepage": "https://github.com/graceDev1/item-mern#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.7"
+  }
+}
