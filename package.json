@@ -5,7 +5,9 @@
   "main": "source/main.js",
   "scripts": {
     "start": "node source/main.js --exec babel-node -e js",
-    "server": "nodemon source/main.js --exec babel-node -e js"
+    "server": "nodemon source/main.js --exec babel-node -e js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently  \" npm run server\" \" npm run client\""
   },
   "keywords": [
     "es6",
@@ -23,11 +25,13 @@
   "homepage": "https://github.com/graceDev1/item-mern#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "concurrently": "^6.0.0",
     "config": "^3.3.6",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.2"
+    "mongoose": "^5.12.2",
+    "styled-components": "^5.2.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
