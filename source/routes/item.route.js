@@ -4,7 +4,7 @@ import auth from '../middleware/authorization';
 
 const route = express.Router();
 
-route.get('/',auth, getItem);
+route.get('/', getItem);
 
 route.post('/', addItem);
 
