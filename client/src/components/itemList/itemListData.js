@@ -19,5 +19,12 @@ export const items = [
         quantity: 8,
         description: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
         imageUrl: 'https://www.carrefour.fr/media/540x540/Photosite/PRODUITS_FRAIS_TRANSFORMATION/FRUITS_ET_LEGUMES/3276552310721_PHOTOSITE_20160322_164033_0.jpg?placeholder=1'
+    },
+    {
+        nom: 'Avocat',
+        prix: 1,
+        quantity: 7,
+        description: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+        imageUrl: 'https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/4/3/0/430dad0bb1_50035739_avocat-dr.jpg'
     }
 ]
