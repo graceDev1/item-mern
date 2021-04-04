@@ -1,0 +1,23 @@
+export const items = [
+    {
+        nom: 'Orange',
+        prix: 1,
+        quantity: 4,
+        description: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+        imageUrl: 'https://media.istockphoto.com/photos/orange-picture-id185284489?k=6&m=185284489&s=612x612&w=0&h=x_w4oMnanMTQ5KtSNjSNDdiVaSrlxM4om-3PQTIzFaY='
+    },
+    {
+        nom: 'Banana',
+        prix: 3,
+        quantity: 4,
+        description: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+        imageUrl: 'https://img-3.journaldesfemmes.fr/E4fjdszC1JEraBTfqCUxtIioLTw=/1240x/smart/d47b1bd18da64f2a94a7ee7286be5ee9/ccmcms-jdf/10662309.jpg'
+    },
+    {
+        nom: 'citrons',
+        prix: 2,
+        quantity: 8,
+        description: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+        imageUrl: 'https://www.carrefour.fr/media/540x540/Photosite/PRODUITS_FRAIS_TRANSFORMATION/FRUITS_ET_LEGUMES/3276552310721_PHOTOSITE_20160322_164033_0.jpg?placeholder=1'
+    }
+]
