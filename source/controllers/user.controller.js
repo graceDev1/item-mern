@@ -75,7 +75,7 @@ const login = (req,res) => {
 
 
 const getUser = (req,res) =>{
-    userModel.findById(req.users.id)
+    userModel.findById(req.params.id)
     .select('-password')
     .then(user => res.json(user))
     .catch(err => console.log(err));

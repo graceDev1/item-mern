@@ -11,7 +11,7 @@ route.post('/', register);
 route.post('/auth',login);
 
 // load user
-route.get('/',auth, getUser);
+route.get('/:id',auth,getUser);
 
 
 export default route;

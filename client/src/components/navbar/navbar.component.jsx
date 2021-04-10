@@ -5,7 +5,7 @@ import './navbar.component.css';
 
 function NavBar() {
     return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
         <Link class="navbar-brand fst-italic" to="/">SHOPPING ITEM</Link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
