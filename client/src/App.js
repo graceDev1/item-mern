@@ -4,10 +4,10 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from "./components/home/home.componet";
 import Footer from "./components/footer/footer.component";
-import ItemList from "./components/itemList/ItemList.component";
+import ItemList from "./components/itemList/Itemlist.component";
 import { GlobalState, ContextProvider } from "./components/context/GlobalContext";
 import Login from "./components/login/login.component";
-import Private from "./components/private/private.component";
+// import Private from "./components/private/private.component";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <Router>
         <NavBar/>
         <Route exact path="/" component={Home}/>
-        <Private exact path="/itemlist" component={ItemList} />
+        <Route exact path="/itemlist" component={ItemList} />
         <Route exact path="/login" component={Login}/>
         <Footer/>
       </Router>
