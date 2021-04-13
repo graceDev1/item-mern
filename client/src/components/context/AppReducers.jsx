@@ -1,24 +1,15 @@
 
 export default (state, action) => {
     switch(action.type){
-        case 'USER_LOADING':
-            return{
+        case 'GET_ITEM':
+            return {
                 ...state,
-                isLoading: true
+                items: action.payload
             }
-        case 'USER_LOADED':
+        case 'DELETE_ITEM':
             return{
                 ...state,
-                isAuthenticated: true,
-                isLoading: false,
-                user: action.payload
-            }
-        case 'LOGIN_USER':
-            return{
-                ...state,
-                ...action.payload,
-                isAuthenticated: true,
-                isLoading: false
+                items: state.items.filter(item => item._id !== action.payload)
             }
         default:
             return state;

@@ -1,9 +1,6 @@
 import connect from '../connect'
 
-// picture:{
-//     type: String,
-//     required: true
-// },
+
 
 
 const ItemModel = connect.Schema({
@@ -18,7 +15,15 @@ const ItemModel = connect.Schema({
     price: {
         type: Number,
         required: true
-    }
+    },
+    description:{
+        type:String,
+        required:false
+    },
+    picture:{
+        type: String,
+        required: true
+    },
 });
 
 
